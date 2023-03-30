@@ -1,0 +1,85 @@
+@keyframes changeBackgroundColor {
+    0% {
+      background-color: #d3950e;
+    }
+    50% {
+      background-color: #e4a258;
+    }
+    100% {
+      background-color: #d3950e;
+    }
+}
+
+body{
+    animation: changeBackgroundColor 5s infinite;
+}
+
+main{
+    display: block;
+    margin: auto;
+    height: 100vh;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+.img-header{
+    height: 80px;
+}
+
+.img-header1{
+    height: 100px;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content{
+    display: flex;
+    width: 380px;
+    height: 590px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.arrow{
+	font-size: 0;
+	line-height: 0;
+	width: 0; 
+	height: 0; 
+	border:solid transparent;
+
+}
+
+.down1{
+	border-width: 50px;
+	border-top-color: #000000;
+	border-bottom-width:0;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.down2{
+	border-width: 50px;
+	border-top-color: #000000;
+	border-bottom-width:0;
+    display: flex;
+    margin: auto;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.section1{
+    height: 100vh;
+}
